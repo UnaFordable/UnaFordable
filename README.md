@@ -11,3 +11,4 @@ Games I made can be found on [Itch.io](https://unafordable.itch.io)
 ## More About Me
 - Graduated Trine University with a Bachalor's of Computer Science
 - Was a student and worker on Project AIMM ICC: a Navy Project that focuses on developing and simulating Artifilial Intelligence for unmaned boats and drones.
+![dummy](https://github.com/UnaFordable/UnaFordable/assets/173727849/0e6ce0b6-27d9-4ec9-b24a-3c2f6490022b)
