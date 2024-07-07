@@ -3,8 +3,8 @@
 Games I made can be found on [Itch.io](https://unafordable.itch.io)
 
 - 📫 How to reach me:
-  <a href="https://www.linkedin.com/in/charles-roberts-14519225a/">
-  <a href="https://www.reddit.com/user/18froberts/">
+  [LinkedIN](https://www.linkedin.com/in/charles-roberts-14519225a)
+  [Reddit](https://www.reddit.com/user/18froberts)
   
 - 😄 Pronouns: He/Him
 - ⚡ Fun Fact: No matter what you do or how hard you try, you'll never be as famous as cheese.
