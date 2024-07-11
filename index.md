@@ -13,7 +13,7 @@ I am creating a game called Turning Point. I will blog my development on Github
 <li>
 <a href="{{ post.url }}">{{ post.title }}</a>
 </li>
-{% end for %}
+{% endfor %}
 </ul>
 
 # How to Reach Me:
