@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"tpCodices","order":1,"path":"sprites/tpCodices/tpCodices.yy",},
+  ],
 }

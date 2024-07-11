@@ -12,8 +12,8 @@
   "duration":114.418594,
   "name":"WAV_8_Bit_Main",
   "parent":{
-    "name":"Rouge-Test",
-    "path":"Rouge-Test.yyp",
+    "name":"TurningPoint",
+    "path":"TurningPoint.yyp",
   },
   "preload":false,
   "resourceType":"GMSound",
