@@ -1,6 +1,9 @@
 # Hello World! May I take your order?
 # My Projects
 Games I made can be found on [Itch.io](https://unafordable.itch.io)
+<ul>
+<li><a href = "https://github.com/users/UnaFordable/projects/2">Turning Point Project</a></li>
+</ul>
 
 # My Interests
 I enjoy simple rpgs over most games. I also enjoy ds games and strive to recreate the artstyle.
@@ -18,8 +21,8 @@ I am creating a game called Turning Point. I will blog my development on Github
 
 # How to Reach Me:
 <ul>
-  <li>[LinkedIN](https://www.linkedin.com/in/charles-roberts-14519225a)</li>
-  <li>[Reddit](https://www.reddit.com/user/18froberts)</li>
+  <li><a href="https://www.linkedin.com/in/charles-roberts-14519225a">LinkedIN</a></li>
+  <li><a href="https://www.reddit.com/user/18froberts">Reddit</a></li>
 </ul>
 
 ## More About Me
