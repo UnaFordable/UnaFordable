@@ -22,7 +22,7 @@
   "option_windows_product_info":"Created with GameMaker",
   "option_windows_resize_window":false,
   "option_windows_save_location":0,
-  "option_windows_scale":1,
+  "option_windows_scale":0,
   "option_windows_sleep_margin":10,
   "option_windows_splash_screen":"${options_dir}/windows//Applications/GameMaker.app/Contents/MacOS/arm64/GUI/Skins/Dark/Images/IDE_Toolbar/icon_IDE_save.png",
   "option_windows_start_fullscreen":false,

@@ -84,7 +84,7 @@
   ],
   "viewSettings":{
     "clearDisplayBuffer":true,
-    "clearViewBackground":true,
+    "clearViewBackground":false,
     "enableViews":true,
     "inheritViewSettings":false,
   },

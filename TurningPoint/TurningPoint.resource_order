@@ -12,11 +12,13 @@
     {"name":"Tile Spritesheets","order":25,"path":"folders/Sprites/Tile Spritesheets.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_textbox","order":1,"path":"objects/obj_textbox/obj_textbox.yy",},
     {"name":"lemur_color_copy","order":9,"path":"sprites/lemur_color_copy/lemur_color_copy.yy",},
     {"name":"Raltz","order":3,"path":"sprites/Raltz/Raltz.yy",},
     {"name":"spr_backbutton","order":14,"path":"sprites/spr_backbutton/spr_backbutton.yy",},
     {"name":"spr_cowbage_plant","order":12,"path":"sprites/spr_cowbage_plant/spr_cowbage_plant.yy",},
     {"name":"spr_down_arrow","order":13,"path":"sprites/spr_down_arrow/spr_down_arrow.yy",},
+    {"name":"spr_emotes","order":27,"path":"sprites/spr_emotes/spr_emotes.yy",},
     {"name":"spr_enemy","order":2,"path":"sprites/spr_enemy/spr_enemy.yy",},
     {"name":"spr_healmove","order":11,"path":"sprites/spr_healmove/spr_healmove.yy",},
     {"name":"spr_lightAttack","order":5,"path":"sprites/spr_lightAttack/spr_lightAttack.yy",},
