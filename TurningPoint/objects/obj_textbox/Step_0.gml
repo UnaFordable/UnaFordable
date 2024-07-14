@@ -8,7 +8,7 @@ if(type[page] == 0){
 
 		//If we haven't "typed out" all the letters, immediately "type out" all letters (works as a "skip")
 		if(char_count < str_len){
-			char_count = string_length(text_NE);
+			char_count = string_length(text_ne);
 		}
 		
 		//Only increase page IF page + 1,is less than the total number of entries

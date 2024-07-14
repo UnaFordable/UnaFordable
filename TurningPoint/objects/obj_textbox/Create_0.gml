@@ -8,11 +8,11 @@ interact_key		= ord("E");
 up_key				= vk_up;		//for dialogue choices
 down_key			= vk_down;		//for dialogue choices
 
-scale				= 3;
+scale				= 1;
 x_buffer			= 10 * scale;
 y_buffer			= 7 * scale;
 
-portrait_frame		= spr_text_box;
+//portrait_frame		= spr_text_box;
 dialogue_box		= spr_text_box;
 name_box			= spr_text_box;
 finished_effect		= spr_pointer;
@@ -47,12 +47,12 @@ portrait_idle_c = 0;
 emotes			= -1;
 speaker			= noone;
 
-box_height		= sprite_get_height(dialogue_box) * scale;
-box_width		= sprite_get_width(dialogue_box) * scale;
+box_height		= sprite_get_height(spr_text_box) * scale;
+box_width		= sprite_get_width(spr_text_box) * scale;
 gui_width		= display_get_gui_width();
 gui_height		= display_get_gui_height();
 gb_diff			= gui_width - box_width;
-portrait_width	= sprite_get_width(portrait_frame) * scale;
+//portrait_width	= sprite_get_width(portrait_frame) * scale;
 finishede_num	= sprite_get_number(finished_effect);
 finishede_spd	= (sprite_get_speed(spr_dialoguefinished)/room_speed);
 
@@ -68,7 +68,7 @@ finishede_x		= pos_x + box_width - x_buffer;
 finishede_y		= pos_y + box_height - y_buffer;
 
 letter			= 0;
-char_ount		= 0;
+char_count		= 0;
 char_count_f		= 0;
 text_speed		= 0;
 text_speed_c	= 0;
