@@ -13,6 +13,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_textbox","order":1,"path":"objects/obj_textbox/obj_textbox.yy",},
+    {"name":"snd_beep","order":1,"path":"sounds/snd_beep/snd_beep.yy",},
     {"name":"lemur_color_copy","order":9,"path":"sprites/lemur_color_copy/lemur_color_copy.yy",},
     {"name":"Raltz","order":3,"path":"sprites/Raltz/Raltz.yy",},
     {"name":"spr_backbutton","order":14,"path":"sprites/spr_backbutton/spr_backbutton.yy",},

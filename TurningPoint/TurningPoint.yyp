@@ -113,6 +113,8 @@
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"Vertecies","path":"scripts/Vertecies/Vertecies.yy",},},
     {"id":{"name":"fireSequence","path":"sequences/fireSequence/fireSequence.yy",},},
+    {"id":{"name":"snd_beep","path":"sounds/snd_beep/snd_beep.yy",},},
+    {"id":{"name":"snd_select","path":"sounds/snd_select/snd_select.yy",},},
     {"id":{"name":"WAV_8_Bit_Main","path":"sounds/WAV_8_Bit_Main/WAV_8_Bit_Main.yy",},},
     {"id":{"name":"lemur_color_copy","path":"sprites/lemur_color_copy/lemur_color_copy.yy",},},
     {"id":{"name":"Raltz","path":"sprites/Raltz/Raltz.yy",},},

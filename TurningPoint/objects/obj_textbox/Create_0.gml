@@ -18,7 +18,7 @@ name_box			= spr_text_box;
 finished_effect		= spr_pointer;
 emote_sprite		= spr_emotes;
 
-choice_snd_effect	= snd_moveselect;
+choice_snd_effect	= snd_beep;
 select_snd_effect	= snd_select;
 
 default_col			= c_black;
