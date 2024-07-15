@@ -34,7 +34,7 @@ function create_textevent(_text, _speaker, _effects, _speed, _type, _next_line, 
 	return _textevent;
 }
 
-function create_dialogue(_text, _speaker, _effects, _speed, _type, _next_line, _scripts, _text_col, _emotion, _emote){
+function create_dialogue(_text = noone, _speaker = -1, _effects = 0, _speed = 1, _type = 0, _next_line=0, _scripts=0, _text_col=0, _emotion=0, _emote=-1){
 	
 	if(instance_exists(obj_textbox)){ exit; }
 	//Create the Textbox
@@ -56,6 +56,7 @@ function create_dialogue(_text, _speaker, _effects, _speed, _type, _next_line, _
 		_speaker = array_create(_text_len, id); 
 	}
 	else{ }
+/*
 	//Fill variables depending on argument count
 	if(array_length(_emote) != _text_len){_emote[_text_len] = 0;}
 	if(array_length(_emotion) != _text_len){ _emotion[_text_len] = 0; }
@@ -65,7 +66,7 @@ function create_dialogue(_text, _speaker, _effects, _speed, _type, _next_line, _
 	if(array_length(_type) != _text_len){ _type[_text_len] = 0; }
 	if(array_length(_speed) != _text_len){ _speed[_text_len] = 0; }
 	if(array_length(_effects) != _text_len){ _effects[_text_len] = 0; }
-
+*/
 	//Change the Textbox Values
 	with(_textbox){
 		creator		= _creator;
@@ -81,23 +82,23 @@ function create_dialogue(_text, _speaker, _effects, _speed, _type, _next_line, _
 	
 		//Speaker'_ind Variables
 		for(var _i = 0; _i <= _text_len; _i++){
-			portrait[_i] = _speaker[_i].myPortrait;
-			voice[_i] = _speaker[_i].myVoice;
-			font[_i] = _speaker[_i].myFont;
-			name[_i] = _speaker[_i].myName;
+			portrait[_i] = _speaker[_i].my_portrait;
+			voice[_i] = _speaker[_i].my_voice;
+			font[_i] = _speaker[_i].my_font;
+			name[_i] = _speaker[_i].my_name;
 			speaker[_i] = _speaker[_i];
 		
-			if(variable_instance_exists(_speaker[i], "myPortraitTalk"))		{ portrait_talk[i] = _speaker[i].myPortraitTalk; }
+			if(variable_instance_exists(_speaker[i], "my_portrait_talk"))		{ portrait_talk[i] = _speaker[i].my_portrait_talk; }
 			else { portrait_talk[i] = -1; }
-			if(variable_instance_exists(_speaker[i], "myPortraitTalk_x"))	{ portrait_talk_x[i] = _speaker[i].myPortraitTalk_x; }
+			if(variable_instance_exists(_speaker[i], "my_portrait_talk_x"))	{ portrait_talk_x[i] = _speaker[i].my_portrait_talk_x; }
 			else { portrait_talk_x[i] = -1; }
-			if(variable_instance_exists(_speaker[i], "myPortraitTalk_y"))	{ portrait_talk_y[i] = _speaker[i].myPortraitTalk_y; }
+			if(variable_instance_exists(_speaker[i], "my_portrait_talk_y"))	{ portrait_talk_y[i] = _speaker[i].my_portrait_talk_y; }
 			else { portrait_talk_y[i] = -1; }
-			if(variable_instance_exists(_speaker[i], "myPortraitIdle"))		{ portrait_idle[i] = _speaker[i].myPortraitIdle; }
+			if(variable_instance_exists(_speaker[i], "my_portrait_idle"))		{ portrait_idle[i] = _speaker[i].my_portrait_idle; }
 			else { portrait_idle[i] = -1; }
-			if(variable_instance_exists(_speaker[i], "myPortraitIdle_x"))	{ portrait_idle_x[i] = _speaker[i].myPortraitIdle_x; }
+			if(variable_instance_exists(_speaker[i], "my_portrait_idle_x"))	{ portrait_idle_x[i] = _speaker[i].my_portrait_idle_x; }
 			else { portrait_idle_x[i] = -1; }
-			if(variable_instance_exists(_speaker[i], "myPortraitIdle_y"))	{ portrait_idle_y[i] = _speaker[i].myPortraitIdle_y; }
+			if(variable_instance_exists(_speaker[i], "my_portrait_idle_y"))	{ portrait_idle_y[i] = _speaker[i].my_portrait_idle_y; }
 			else { portrait_idle_y[i] = -1; }
 			if(portrait_talk[i] != -1){ 
 				portrait_talk_n[i] = sprite_get_number(portrait_talk[i]);

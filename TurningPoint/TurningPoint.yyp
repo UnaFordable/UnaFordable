@@ -102,6 +102,7 @@
     {"id":{"name":"obj_transition_parent","path":"objects/obj_transition_parent/obj_transition_parent.yy",},},
     {"id":{"name":"obj_transition_pixelate","path":"objects/obj_transition_pixelate/obj_transition_pixelate.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
+    {"id":{"name":"par_speaker","path":"objects/par_speaker/par_speaker.yy",},},
     {"id":{"name":"rm_cowbage_pasture","path":"rooms/rm_cowbage_pasture/rm_cowbage_pasture.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"id":{"name":"rm_minigame_hub","path":"rooms/rm_minigame_hub/rm_minigame_hub.yy",},},
