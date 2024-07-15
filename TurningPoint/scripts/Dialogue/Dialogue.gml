@@ -14,7 +14,7 @@ function reset_dialogue_defaults(){
 	m_emote = -1;
 }
 
-function create_text_event(_text, _speaker, _effects, _speed, _type, _next_line, _scripts, _text_col, _emotion, _emote){
+function create_textevent(_text, _speaker, _effects, _speed, _type, _next_line, _scripts, _text_col, _emotion, _emote){
 	if(instance_exists(obj_textevent)){ exit; }
 	var _textevent = instance_create_layer(0,0,"Instances",obj_textevent);
 	with(_textevent){
@@ -34,7 +34,7 @@ function create_text_event(_text, _speaker, _effects, _speed, _type, _next_line,
 	return _textevent;
 }
 
-function create_dialog(_text, _speaker, _effects, _speed, _type, _next_line, _scripts, _text_col, _emotion, _emote){
+function create_dialogue(_text, _speaker, _effects, _speed, _type, _next_line, _scripts, _text_col, _emotion, _emote){
 	
 	if(instance_exists(obj_textbox)){ exit; }
 	//Create the Textbox
@@ -79,7 +79,7 @@ function create_dialog(_text, _speaker, _effects, _speed, _type, _next_line, _sc
 		emotion		= _emotion;	
 		emotes		= _emotes;
 	
-		//Speaker's Variables
+		//Speaker'_ind Variables
 		for(var _i = 0; _i <= _text_len; _i++){
 			portrait[_i] = _speaker[_i].myPortrait;
 			voice[_i] = _speaker[_i].myVoice;
@@ -115,4 +115,37 @@ function create_dialog(_text, _speaker, _effects, _speed, _type, _next_line, _sc
 	}
 	m_textbox = _textbox;
 	return _textbox;
+}
+	
+function change_variable(_obj, _var_name_as_string, _new_value) {
+	with(_obj) var _oid = id;
+	variable_instance_set(_oid, _var_name_as_string, _new_value);
+}
+
+function script_execute_alt(_ind, _array) {
+	var _len = array_length(_array);
+
+	switch(_len){
+		case 0 : script_execute(_ind); break;
+		case 1 : script_execute(_ind, _array[0]); break;
+		case 2:  script_execute(_ind, _array[0], _array[1]); break;
+		case 3:  script_execute(_ind, _array[0], _array[1], _array[2]); break;
+		case 4:  script_execute(_ind, _array[0], _array[1], _array[2], _array[3]); break;
+		case 5:  script_execute(_ind, _array[0], _array[1], _array[2], _array[3], _array[4]); break;
+		case 6:  script_execute(_ind, _array[0], _array[1], _array[2], _array[3], _array[4], _array[5]); break;
+		case 7:  script_execute(_ind, _array[0], _array[1], _array[2], _array[3], _array[4], _array[5], _array[6]); break;
+		case 8:  script_execute(_ind, _array[0], _array[1], _array[2], _array[3], _array[4], _array[5], _array[6], _array[7]); break;
+		case 9:  script_execute(_ind, _array[0], _array[1], _array[2], _array[3], _array[4], _array[5], _array[6], _array[7], _array[8]); break;
+		case 10: script_execute(_ind, _array[0], _array[1], _array[2], _array[3], _array[4], _array[5], _array[6], _array[7], _array[8], _array[9]); break;
+		case 11: script_execute(_ind, _array[0], _array[1], _array[2], _array[3], _array[4], _array[5], _array[6], _array[7], _array[8], _array[9], _array[10]); break;
+		case 12: script_execute(_ind, _array[0], _array[1], _array[2], _array[3], _array[4], _array[5], _array[6], _array[7], _array[8], _array[9], _array[10], _array[11]); break;
+		case 13: script_execute(_ind, _array[0], _array[1], _array[2], _array[3], _array[4], _array[5], _array[6], _array[7], _array[8], _array[9], _array[10], _array[11], _array[12]); break;
+		case 14: script_execute(_ind, _array[0], _array[1], _array[2], _array[3], _array[4], _array[5], _array[6], _array[7], _array[8], _array[9], _array[10], _array[11], _array[12], _array[13]); break;
+		case 15: script_execute(_ind, _array[0], _array[1], _array[2], _array[3], _array[4], _array[5], _array[6], _array[7], _array[8], _array[9], _array[10], _array[11], _array[12], _array[13], _array[14]); break;
+		case 16: script_execute(_ind, _array[0], _array[1], _array[2], _array[3], _array[4], _array[5], _array[6], _array[7], _array[8], _array[9], _array[10], _array[11], _array[12], _array[13], _array[14], _array[15]); break;
+	}
+
+
+
+
 }
