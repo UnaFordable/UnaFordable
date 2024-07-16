@@ -12,11 +12,11 @@ I enjoy simple rpgs over most games. I also enjoy ds games and strive to recreat
 I am creating a game called Turning Point. I will blog my development on Github
 
 <ul>
-{% for post in site.posts %}
-<li>
-<a href="{{ post.url }}">{{ post.title }}</a>
-</li>
-{% endfor %}
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
 </ul>
 
 # How to Reach Me:
