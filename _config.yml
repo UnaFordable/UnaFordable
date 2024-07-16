@@ -1,4 +1,9 @@
 title: UnaFordable Homepage
 description: aspiring video game programmer
 github_username: UnaFordable
-theme: jekyll-theme-time-machine
+theme: minima
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+minima:
+  skin: classic
