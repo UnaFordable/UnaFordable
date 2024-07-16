@@ -1,9 +1,7 @@
 title: UnaFordable Homepage
+author: GitHub User
+email: fordroberts18@gmail.com
 description: aspiring video game programmer
 github_username: UnaFordable
-theme: minima
-plugins:
- - jekyll-feed
- - jekyll-seo-tag
-minima:
-  skin: classic
+theme: jekyll-theme-dinky
+show_excerpts: true
