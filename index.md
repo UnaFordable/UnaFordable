@@ -15,7 +15,6 @@ I am creating a game called Turning Point. I will blog my development on Github
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>
