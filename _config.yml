@@ -3,5 +3,5 @@ author: GitHub User
 email: fordroberts18@gmail.com
 description: aspiring video game programmer
 github_username: UnaFordable
-theme: jekyll-theme-minima
+theme: jekyll-remote-theme
 show_excerpts: true
