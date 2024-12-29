@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 authour: croberts
 title: "First Blog"
 ---
